@@ -2,7 +2,7 @@
 	export let title = "loading...";
 	export let detail = "loading...";
 	export let imageUri;
-	export let colorHightlight = "gray";
+	export let colorHighlight = "gray";
 </script>
 
 <style type="text/scss">
@@ -30,8 +30,8 @@
 	}
 </style>
 
-<div class="feature-card" style="border-top: solid 3px {colorHightlight};">
-	<h3>{title}</h3>
-	<p>{detail}</p>
+<div class="feature-card" style="border-top: solid 3px {colorHighlight};">
+	<h3 class="txt-very-dark-blue">{title}</h3>
+	<p class="txt-grayish-blue">{detail}</p>
 	<img src={imageUri} width={60} height={60} alt />
 </div>
